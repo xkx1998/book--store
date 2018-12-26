@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="jdbcUrl">jdbc:oracle:thin:@localhost:1521:orcl</property>
+		<property name="driverClass">oracle.jdbc.OracleDriver</property>
+		<property name="user">system</property>
+		<property name="password">123456</property>
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">5</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">8</property>
+	</default-config>
+</c3p0-config>
